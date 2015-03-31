@@ -66,6 +66,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     charger_res_images
 
+# Connectivity
+PRODUCT_PACKAGES += \
+    libcnefeatureconfig
+
 # CRDA
 PRODUCT_PACKAGES += \
     crda \
@@ -191,10 +195,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    fstab.qcom \
-    init.qcom.rc \
-    init.qcom.usb.rc \
-    ueventd.qcom.rc
+    fstab.armani \
+    init.armani.rc \
+    init.armani.usb.rc \
+    ueventd.armani.rc
 
 # Sensors
 PRODUCT_COPY_FILES += \
